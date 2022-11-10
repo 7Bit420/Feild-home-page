@@ -45,6 +45,10 @@ section:nth-of-type(even) {
     height: 30vh;
     padding: 35vh 0px;
     float: right;
-    display: block;
     background: var(--tertiary-bg);
+}
+
+.main>.infobox>* {
+    width: 100%;
+    display: inline-block;
 }

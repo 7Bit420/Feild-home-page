@@ -1,0 +1,17 @@
+
+# Structure Config
+archetypeDir: templates/archetypes
+assetDir: src/assets
+contentDir: src/content
+publishDir: build
+themesDir: templates/themes
+
+relativeURLs: true
+enableRobotsTXT: true
+
+watch: true
+
+sitemap:
+  changefreq: always
+  filename: sitemap.xml
+  priority: 0.5
