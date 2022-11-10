@@ -1,0 +1,50 @@
+@import url("colour-scheme.css");
+@import url("base.css");
+
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+section {
+    scroll-snap-align: start;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+section:nth-of-type(odd) {
+    background: var(--primary-bg);
+}
+
+section:nth-of-type(even) {
+    background: var(--secondary-bg);
+}
+
+.main>.sheeth {
+    width: 0px;
+    height: 0px;
+    display: block;
+    --triangle-height: 100vh;
+    --triangle-width: 20vw;
+    border-top: calc(var(--triangle-height)/2) solid transparent;
+    border-left: calc(var(--triangle-width)/2) solid transparent;
+    border-bottom: calc(var(--triangle-height)/2) solid var(--tertiary-bg);
+    border-right: calc(var(--triangle-width)/2) solid var(--tertiary-bg);
+    float: right;
+}
+
+.main>.infobox {
+    width: 30vw;
+    height: 30vh;
+    padding: 35vh 0px;
+    float: right;
+    display: block;
+    background: var(--tertiary-bg);
+}

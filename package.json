@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@types/next": "^9.0.0",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "fs": "^0.0.1-security",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "feild-home-page",
+  "version": "1.0.0",
+  "description": "Scotch Colage feild house homepage",
+  "main": "out/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7Bit420/Feild-home-page.git"
+  },
+  "author": "Michael Bell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/7Bit420/Feild-home-page/issues"
+  },
+  "homepage": "https://github.com/7Bit420/Feild-home-page#readme",
+  "devDependencies": {
+    "typescript": "4.8.4"
+  }
+}

@@ -1,0 +1,14 @@
+
+@media screen and (prefers-color-scheme: dark) {
+    
+    * {
+        --primary-bg: #755019;
+        --secondary-bg: #8a5d1a;
+        --tertiary-bg: #584426;
+
+        --primary-text: #595959;
+        --secondary-text: #2260b7;
+        --tertiary-text: #6a8ca0;
+    }
+
+}
