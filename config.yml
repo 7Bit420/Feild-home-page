@@ -1,3 +1,4 @@
+---
 title: "Feild Home Page"
 author: "Michael Bell"
 copyright: "Copyright © 2022, Michael Bell; all rights reserved."
@@ -8,11 +9,14 @@ enableInlineShortcodes: true
 
 # Structure Config
 
-# archetypeDir: templates/archetypes
-# assetDir: src/assets
-# contentDir: src/content
-# publishDir: build
-# themesDir: templates/themes
+archetypeDir: templates/archetypes
+assetDir: src/assets
+contentDir: src/content
+publishDir: build
+themesDir: templates/themes
+layoutDir: templates/layouts
+staticDir: "src/static"
+
 
 relativeURLs: true
 enableRobotsTXT: true
@@ -28,7 +32,9 @@ sitemap:
 
 menu:
   main:
-    identifier: "about"
-    name: "About"
-    URL: "/about/"
-    weight: 10
+    - Identifier: "about"
+      Name: "About"
+      URL: "about"
+      weight: 10
+---
+
