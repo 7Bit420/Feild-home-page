@@ -1,0 +1,17 @@
+<footer>
+    <div class="footer links">
+        {{ range $.Site.Menus.SubMajour }}
+        <div class="footer catogory">
+            <h1 class="footer title">{{ .name }}</h1>
+            <div class="footer conainter minor">
+                {{ range .Children }}
+                <a href="{{ relURL | .URL }}" class="footer minor">{{ .name }}</a>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    <div class="footer contact">
+        <h1 class="footer copyright">© Copyright 2022, Michael Bell</h1>
+    </div>
+</footer>

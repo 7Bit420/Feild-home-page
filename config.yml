@@ -1,0 +1,34 @@
+title: "Feild Home Page"
+author: "Michael Bell"
+copyright: "Copyright © 2022, Michael Bell; all rights reserved."
+paginate: 3
+languageCode: "en"
+DefaultContentLanguage: "en"
+enableInlineShortcodes: true
+
+# Structure Config
+
+# archetypeDir: templates/archetypes
+# assetDir: src/assets
+# contentDir: src/content
+# publishDir: build
+# themesDir: templates/themes
+
+relativeURLs: true
+enableRobotsTXT: true
+theme: "Comuinity"
+
+watch: true
+baseURL: http://localhost/
+
+sitemap:
+  changefreq: always
+  filename: sitemap.xml
+  priority: 0.5
+
+menu:
+  main:
+    identifier: "about"
+    name: "About"
+    URL: "/about/"
+    weight: 10

@@ -1,0 +1,5 @@
+<nav>
+    {{ range .Site }}
+        <a href="{{ .URL }}">{{ .name }}</a>
+    {{ end }}
+</nav>
