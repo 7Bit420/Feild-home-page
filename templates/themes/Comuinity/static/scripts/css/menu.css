@@ -1,0 +1,36 @@
+section,
+.section {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.section.head {
+    min-height: 30vh;
+    display: table;
+}
+
+.section.head>h1 {
+    vertical-align: middle;
+    font-size: 10vh;
+    width: min-content;
+    display: table-cell;
+    padding: 0px 0px 0px 5vw;
+}
+
+.section.main {
+    width: 90vw;
+    padding: 5vw 5vh;
+}
+
+aside {
+    width: 30vw;
+    margin-right: 5vw;
+    min-height: 80vh;
+    float: left;
+}
+
+.section.main>div.content {
+    width: 55vw;
+    min-height: 80vh;
+    float: right;
+}

@@ -15,26 +15,52 @@ contentDir: src/content
 publishDir: build
 themesDir: templates/themes
 layoutDir: templates/layouts
-staticDir: "src/static"
+staticDir: src/static
 
+# Theme
 
-relativeURLs: true
-enableRobotsTXT: true
 theme: "Comuinity"
 
+# Dev Config
+
 watch: true
+cleanDestinationDir: true
+disableKinds: [ 
+  "RSS",
+  "taxonomy",
+  "term",
+]
 baseURL: http://localhost/
 
+# Data Config
+
+enableRobotsTXT: true
 sitemap:
   changefreq: always
   filename: sitemap.xml
   priority: 0.5
 
+# Content Config
+
+
+
+sectionPagesMenu: main
 menu:
   main:
-    - Identifier: "about"
-      Name: "About"
-      URL: "about"
-      weight: 10
+    - Identifier: "blogs"
+      Name: "Blogs"
+      URL: "/blogs"
+      weight: 1
+    - Identifier: "archive"
+      Name: "Archive"
+      URL: "/archive"
+      weight: 1
+    - Identifier: "students"
+      Name: "Students"
+      URL: "/students"
+      weight: 1
+    - Identifier: "notices"
+      Name: "Notices"
+      URL: "/notices"
+      weight: 1
 ---
-

@@ -1,0 +1,11 @@
+body,
+html {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100vw;
+}
+
+section, main, footer {
+    scroll-snap-align: start;
+}

@@ -1,0 +1,11 @@
+<div class="menu-item{{ if .HasChildren }} parent{{ end }}">
+    <a href="{{ .URL }}">{{ .Title }}</a>
+    {{ if .HasChildren }}
+    <div class="children">
+        {{ range .Children }}
+        {{ partial "recersiveList.html" . }}
+        {{ end }}
+    </div>
+    {{ end }}
+
+</div>
